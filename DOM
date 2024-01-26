@@ -75,3 +75,5 @@ function goTown() {
     text: "You enter the store.", 
   }
     ];
+
+    
