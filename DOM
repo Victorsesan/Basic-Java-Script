@@ -28,4 +28,5 @@ button3.innerText = "Go to town square";
 button1.onclick  = buyHealth;
 button2.onclick  = buyWeapon;
 button3.onclick  = goTown;
+
 }
