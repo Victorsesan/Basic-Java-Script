@@ -54,4 +54,6 @@ function goTown() {
     button3.onclick = fightDragon;
     text.innerText = "You are in the town square. You see a sign that says \"Store\".";
 
-    function update (location) {}
+    function update(location) {}
+
+    
