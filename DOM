@@ -76,4 +76,6 @@ function goTown() {
   }
     ];
 
-    
+    function goTown() {
+      update(locations);
+    }
