@@ -104,7 +104,7 @@ function goTown() {
       goldText.innerText = gold;
   healthText.innerText = health;
   if (gold >= 10) {}
-  else {}
+  else {text.innerText = "You do not have enough gold to buy health."}
     }
     
     
