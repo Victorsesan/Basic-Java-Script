@@ -104,6 +104,7 @@ function goTown() {
       goldText.innerText = gold;
   healthText.innerText = health;
   if (gold >= 10) {}
+  else {}
     }
     
     
