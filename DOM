@@ -74,6 +74,8 @@ function goTown() {
     "button functions": [buyHealth, buyWeapon, goTown],
     text: "You enter the store.", 
   }
+
+  
     ];
 
     function goTown() {
@@ -91,3 +93,4 @@ function goTown() {
     function fightBeast() {
     
     }
+
