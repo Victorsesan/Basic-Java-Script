@@ -62,6 +62,8 @@ function goTown() {
   button3.onclick = location["button functions"][2];
     text.innerText = text.innerText = location.text;}
 
+    const weapons = [];
+
     const locations = [
       {
         name: "town square",
@@ -107,10 +109,11 @@ function goTown() {
   else {text.innerText = "You do not have enough gold to buy health."}
     }
     
-    
-    
+  
     function fightBeast() {
     
     }
+
+
 
     
