@@ -271,3 +271,8 @@ monsterHealthText.innerText = monsterHealth;
           function winGame(){
             update(locations[6])
           } 
+
+          function getMonsterAttackValue(level) 
+{
+  const hit = (level * 5) - (Math.floor(Math.random() * xp));
+}
