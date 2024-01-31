@@ -234,5 +234,5 @@ monsterHealthText.innerText = monsterHealth;
           }
           
           function lose(){
-            
+            update(locations[5]);
           }
