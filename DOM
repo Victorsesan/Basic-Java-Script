@@ -134,6 +134,8 @@ function goTown() {
     }
     }
     
-    function sellWeapon () {
+    function sellWeapon () {if (inventory.length > 1){
+
+    }
   
     }
