@@ -224,7 +224,7 @@ monsterHealthText.innerText = monsterHealth;
           } else {
             defeatMonster()
           }
-          
+
           function dodge() {
             text.innerText = "You dodge the attack from the " + monsters[fighting].name;
             
@@ -260,3 +260,6 @@ monsterHealthText.innerText = monsterHealth;
             text: "You die. ☠️"
           }
 
+          function winGame(){
+            update(locations[6])
+          } 
