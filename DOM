@@ -216,3 +216,11 @@ monsterHealthText.innerText = monsterHealth;
           function dodge() {
             
           }
+
+          function defeatMonster(){
+
+          }
+          
+          function lose(){
+            
+          }
