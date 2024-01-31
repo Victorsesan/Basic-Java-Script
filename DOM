@@ -114,6 +114,6 @@ function goTown() {
     
     }
 
-    function buyWeapon() {if(gold >= 30) {gold -= 30;} }
+    function buyWeapon() {if(gold >= 30) {gold -= 30; currentweapon += 1;} }
 
     
