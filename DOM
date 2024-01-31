@@ -248,5 +248,10 @@ monsterHealthText.innerText = monsterHealth;
             xpText.innerText = xp;
           goTown()
           }
+          {
+            name: "lose",
+            "button text": ["REPLAY?", "REPLAY?", "REPLAY?"],
+            "button functions": [restart, restart, restart],
+            text: "You die. ☠️"
+          }
 
-          
