@@ -242,7 +242,9 @@ monsterHealthText.innerText = monsterHealth;
           } else {
             defeatMonster()
           }
-          
+          if(Math.random() <= .1){
+            text.innerText += " Your " + inventory.pop() + " breaks.";
+          }
 
           function dodge() {
             text.innerText = "You dodge the attack from the " + monsters[fighting].name;
