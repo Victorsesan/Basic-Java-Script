@@ -317,7 +317,12 @@ for (let i = 0; i < 10; i++) {
 if(numbers.includes(guess)) {
   console.log("The number is in the array.");
 }
+{
+  text.innerText += "Right! You win 20 gold!";
+  gold += 20;
+  goldText.innerText = gold;
 
+}
 }
     }
 
