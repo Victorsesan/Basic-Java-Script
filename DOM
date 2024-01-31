@@ -110,6 +110,7 @@ function goTown() {
         }
   
       }
+      
     ];
     
     function goTown() {
@@ -309,3 +310,5 @@ function pickTwo() {
   function pickEight() {
   pick(8);
   }
+
+  
