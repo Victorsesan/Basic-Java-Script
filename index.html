@@ -1,106 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./styles.css">
     <title>RPG - Dragon Repeller</title>
-    <link rel="stylesheet"    
-href="mystylesheet.css">
-</head>
-<body>
-
+  </head>
+  <body>
     <div id="game">
-    <div id="stats"></div>
-    <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
-    <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
-    <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
-    <div id="controls"></div>
-    <div id="monsterStats"></div>
-    <div id="text"></div>
-
-    <div id="controls">
+      <div id="stats">
+        <span class="stat">XP: <strong><span id="xpText">0</span></strong></span>
+        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">50</span></strong></span>
+      </div>
+      <div id="controls">
         <button id="button1">Go to store</button>
         <button id="button2">Go to cave</button>
         <button id="button3">Fight dragon</button>
-              </div>
-
-    <div id="monsterStats">
+      </div>
+      <div id="monsterStats">
         <span class="stat">Monster Name: <strong><span id="monsterName"></span></strong></span>
         <span class="stat">Health: <strong><span id="monsterHealth"></span></strong></span>
-            </div>         
-
-    <div id="text">
+      </div>
+      <div id="text">
         Welcome to Dragon Repeller. You must defeat the dragon that is preventing people from leaving the town. You are in the town square. Where do you want to go? Use the buttons above.
-            </div>
-    <body style="background-color: #0a0a23;"></body>
-
-    <style>
-    #text {
-        background-color #0a0a23;
-    color: #ffffff;
-    padding: 10px; 
-    }
-</style>
-
-<style> 
-    #game {
-        max-width: 500px;
-        max-height: 400px;
-        background-color: #ffffff;
-        color: #ffffff;
-        margin-top: 30px;
-        margin-bottom: 0px;
-        margin-left: auto;
-        margin-right: auto;
-        padding: 10px; 
-    }
-
-</style>
-
-<style>
-    #controls , #stats{
-        border: 1px solid #0a0a23;
-        color: #0a0a23;
-        padding: 5px;
-      }
-
-</style>
-        
-<style>
-
-    #monsterStats {
-        border: 1px solid #0a0a23;
-          padding: 5px;
-          color: #ffffff;
-          background-color: #c70d0d;
-        }
-</style>
-
-<style>
-
-    .stat {
-        padding-right: 10px;
-      }
-</style>
-
-<style>
-
-    button {
-        cursor: pointer;
-        color: #0a0a23;
-        background-color: #feac32;
-        background-image: linear-gradient(#fecc4c, #ffac33);
-        border: 3px solid #feac32;
-    }
-</style>
-
-<script>
-    console.log("Hello World");
-</script>
-
-
-<script src="./script.js">
-      
-</script>
-
-</body>    
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
 </html>
